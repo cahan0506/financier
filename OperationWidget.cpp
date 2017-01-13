@@ -1,4 +1,4 @@
-#include <QtGui>
+#include <QtWidgets>
 
 #include "FinCompletion.h"
 #include "OperationWidget.h"

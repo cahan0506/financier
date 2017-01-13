@@ -1,5 +1,5 @@
 
-#include <QtGui>
+#include <QtWidgets>
 #include "EditGroupDlg.h"
 
 #include "common.h"

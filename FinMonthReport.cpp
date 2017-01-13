@@ -1,4 +1,4 @@
-#include <QtGui>
+#include <QtWidgets>
 #include <QtSvg>
 
 #include "FinMonthReport.h"
@@ -121,7 +121,8 @@ QByteArray createSvg(double income, double charge, double selInc = 0, double sel
 + QVariant(-charge).toString() + "</text></g>"
 "</svg>";
     qDebug() << svg;
-    return svg.toAscii();
+    //return svg.toAscii();
+    return svg.toUtf8();
 }
 
 

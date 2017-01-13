@@ -1,5 +1,5 @@
 
-#include <QtGui>
+#include <QtWidgets>
 #include "EditDlg.h"
 #include "FinCompletion.h"
 #include "common.h"
